@@ -251,7 +251,7 @@ Now Your App is running on 8000 Port so give the inbound accesss:
 
 Type the Public ip with 8000 Port:- 
 
-![image](https://user-images.githubusercontent.com/121545847/210234319-3425b5fc-7610-485a-ac06-b418f89a7561.png)
+![image](https://user-images.githubusercontent.com/61465971/211085634-ee1fc200-ad7a-4263-96aa-b3915b926fab.png)
 
 
 Now lets install docker and build the docker image by following commands 
@@ -267,7 +267,7 @@ Now creat the docker file
 vim dockerfile
 ```
 
-![image](https://user-images.githubusercontent.com/84725860/210178076-2534550d-ea81-46d7-ad7e-cd1e4e48aef3.png)
+![image](https://user-images.githubusercontent.com/61465971/211087544-e39966c0-a5e1-4080-a952-516c53d1b6c0.png)
 
 
 Give the commands in that docker file
@@ -303,12 +303,12 @@ CMD command specifies the instruction that is to be executed when a Docker conta
 CMD ["node","app.json"]
 ```
 
-![image](https://user-images.githubusercontent.com/84725860/210178326-c5bdae65-b710-42c5-8c7d-8725225df829.png)
+![image](https://user-images.githubusercontent.com/61465971/211090270-9ed91fbf-fa40-4401-af4e-7d5ab2783a9f.png)
 
 Add your user to the docker group / If you want to be able to skip sudo for docker commands
 
 ```
-sudo usermode -a -G docker $USER
+sudo usermod -a -G docker $USER
 ```
 
 Reboot the docker user
@@ -321,12 +321,12 @@ Launch the instance and got to Build path
 Once Rebooted build Image by following Command 
 
 ```
-sudo docker build . -t todo-job1
+sudo docker build . -t todo-node-app
 ```
 After Successfully image is built run the image by
 
 ```
-sudo docker run -d  --name todo-job1 -p 8000:8000 todo-job1
+sudo docker run -d  --name todo-job1 -p 8000:8000 todo-node-app
 ```
 
 Here Container-name --> todo , -d --> detached mode , -p -->Expose port 8000
@@ -364,7 +364,7 @@ sudo systemctl restart jenkins
 
 Then add the Build Steps in Execute Shell
 
-![image](https://user-images.githubusercontent.com/121545847/210248806-f21e2c98-45bb-4f48-9e6d-cb9e636139f8.png)
+![image](https://user-images.githubusercontent.com/61465971/211094025-dfb511e1-50be-47cb-b7c6-22e4bb29686c.png)
 
 Now check the Port 8000 is running Successfully
 
