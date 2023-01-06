@@ -142,7 +142,7 @@ Now Click on Start Using Jenkins you can see below screen
 
 Provide Item Name, we are using freestyle pipeline so choose freestyle project
 
-![image](https://user-images.githubusercontent.com/121545847/210228201-a68aab91-a0a5-4885-a066-012c680f455d.png)
+![image](https://user-images.githubusercontent.com/61465971/211064067-0620e572-cf0b-4166-8848-df1981dc0184.png)
 
 Once Done Click on save
 
