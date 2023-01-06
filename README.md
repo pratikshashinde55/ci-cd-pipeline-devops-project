@@ -170,7 +170,7 @@ Now Go to your GitHub & provide the public key as
 cat id_rsa.pub
 ```
 
-![image](https://user-images.githubusercontent.com/84725860/210176867-19c1cbd6-9ce6-4e91-aa26-007a3341c548.png)
+![image](https://user-images.githubusercontent.com/61465971/211067049-6e2a35bf-a334-483a-9ad4-6ef2ff78903f.png)
 
 Copy that key and add to your GitHub SSH Keys Section
 
@@ -181,14 +181,14 @@ Go to your Project -->  Configure
 
 Check Github Project & Provide the Project URL
 
-![image](https://user-images.githubusercontent.com/121545847/210234072-3ecd07f1-5b6a-4162-b87e-a93924484b54.png)
+![image](https://user-images.githubusercontent.com/61465971/211067418-4f12f2c8-f6b6-4ef4-8330-7eb5e4e4fd3b.png)
 
 
 
 In Source Code Management select GIT and paste the repository URL 
 
 
-![image](https://user-images.githubusercontent.com/84725860/210176808-a6e4023d-0322-40fc-830b-c72473590105.png)
+![image](https://user-images.githubusercontent.com/61465971/211067789-a0a2c48d-60c3-4a4d-a306-3442b9b6dc7e.png)
 
 
 Now in credentials click on add
@@ -215,7 +215,7 @@ You can see build is started Once Done open that build
 
 Go to console output & copy the address
 
-![image](https://user-images.githubusercontent.com/121545847/210234224-4a72ab1e-2ba0-4cd2-a50c-6b76a2aeaf6f.png)
+![image](https://user-images.githubusercontent.com/61465971/211071935-e4180c48-9470-4179-b606-9d17fd92640c.png)
 
 
 
