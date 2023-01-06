@@ -385,7 +385,7 @@ then
 
 Go to Webhooks which is in Repo Settings and add webhook
 
-![image](https://user-images.githubusercontent.com/121545847/210254199-b1117352-8476-4274-a365-754a26581a35.png)
+![image](https://user-images.githubusercontent.com/61465971/211097990-3ef1f1b3-3dd2-43be-a724-c9e8136f8273.png)
 
 
 then Go to jenkins and configure the Build triggers
@@ -395,7 +395,7 @@ then Go to jenkins and configure the Build triggers
 Now Change in Github you will see automatic deployment will there
 
 
-![image](https://user-images.githubusercontent.com/121545847/210254649-a5ec1fb6-f58b-4a36-aa8a-70da7608eb90.png)
+![image](https://user-images.githubusercontent.com/61465971/211098192-59d13079-7bf5-4f91-8896-2f30dd71e1fe.png)
 
 
 # Thank You
