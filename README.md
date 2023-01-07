@@ -364,7 +364,7 @@ sudo systemctl restart jenkins
 
 Then add the Build Steps in Execute Shell
 
-![image](https://user-images.githubusercontent.com/61465971/211094025-dfb511e1-50be-47cb-b7c6-22e4bb29686c.png)
+![image](https://user-images.githubusercontent.com/61465971/211138973-88f6aa01-9e0e-4864-9283-f0ab02c9e149.png)
 
 Now check the Port 8000 is running Successfully
 
