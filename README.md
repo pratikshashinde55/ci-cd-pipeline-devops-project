@@ -205,7 +205,7 @@ cat id_rsa
 
 Once Done Check Specifier For me it's main
 
-![image](https://user-images.githubusercontent.com/84725860/210177246-cf8a51c2-3679-4d15-be93-bb5a07515762.png)
+![image](https://user-images.githubusercontent.com/61465971/211134087-98d53b4f-a2b2-48bc-9be5-c61379ab4cd8.png)
 
 Now click on Save
 
