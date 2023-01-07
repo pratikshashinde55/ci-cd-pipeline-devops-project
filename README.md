@@ -222,7 +222,7 @@ Go to console output & copy the address
 Now open your Instance & change Directory with
 
 ```
-cd /var/lib/jenkins/workspace/Item-Name  (Pranoti_G is my Item Name)
+cd /var/lib/jenkins/workspace/Item-Name  (Pratiksha-S is my Item Name)
 ```
 
 Installing Node. js and npm from NodeSource
@@ -368,7 +368,7 @@ Then add the Build Steps in Execute Shell
 
 Now check the Port 8000 is running Successfully
 
-![image](https://user-images.githubusercontent.com/121545847/210249093-01ded4b3-5a7e-4350-add7-36fdb96a3dfc.png)
+![image](https://user-images.githubusercontent.com/61465971/211085634-ee1fc200-ad7a-4263-96aa-b3915b926fab.png)
 
 ### Step 5:
 
